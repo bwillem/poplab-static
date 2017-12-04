@@ -1,5 +1,41 @@
+/* 
+ * POPLAB
+ * RESETS AND GLOBALS
+ *
+ */
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Karla',
+    -apple-system, 
+    BlinkMacSystemFont, 
+    Roboto, 
+    Oxygen,
+    Ubuntu, 
+    Cantarell,
+    “Fira Sans”,
+    “Droid Sans”,
+    “Helvetica Neue”,
+    Arial,
+    sans-serif
+}
+
+body * {
+  box-sizing: border-box
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgba(0,0,0,0.7)
+}
+
+p,
+a,
+span,
+div {
+  color: rgba(0,0,0,0.6)
 }
