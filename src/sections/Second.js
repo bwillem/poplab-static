@@ -2,12 +2,13 @@ import React from 'react'
 import {
   FixedWidthRow,
   BlueText,
+  H2,
 } from '../uiLibrary'
 
 export const Second = props => {
   return (
-      <h2>
-        <BlueText>poplab</BlueText> is a blah blah blah
-      </h2>
+      <H2>
+        <BlueText>poplab</BlueText> helps build timeless products and interfaces
+      </H2>
   );
 }

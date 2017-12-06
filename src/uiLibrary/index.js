@@ -12,7 +12,9 @@ export * from './FixedWidthRow'
 
 // typography
 export * from './Headline'
+export * from './H2'
 export * from './BlueText'
 
 // UI components
 export * from './Button'
+export * from './RouteImages'

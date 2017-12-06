@@ -8,17 +8,41 @@ import {
   Button,
   Headline,
   BlueText,
+  RouteImageMain,
+  mq,
 } from '../uiLibrary'
 
 const StyledBackground = styled.section`
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(
     transparent,
     rgba(55, 184, 254, 0.22))
 `
 const StyledVerticalCenter = styled.div`
-  padding-top: 50%;
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
+`
+const StyledHideOnSmall = styled.span`
+  display: none;
+  @media screen and (min-width: ${ mq.small }) {
+    display: block
+  }
+`
+const StyledHideOnMedium = styled.span`
+  display: none;
+  @media screen and (min-width: ${ mq.medium }) {
+    display: block
+  }
+`
+const StyledImg = styled.img`
+  width: 360px;
+  position: absolute;
+  right: 32px;
+  top: 28%;
+  @media screen and (min-width: ${ mq.large }) {
+    right: 18%;
+  }
 `
 export const Main = props => {
   return (
@@ -37,7 +61,9 @@ export const Main = props => {
           </StyledVerticalCenter>
         </Column>
         <Column span='2'>
-          four
+          <StyledHideOnMedium>
+            <StyledImg src={ '../Union.png' } alt='poplab-route-illustration'/>
+          </StyledHideOnMedium>
         </Column>
       </FixedWidthRow>
     </StyledBackground>
