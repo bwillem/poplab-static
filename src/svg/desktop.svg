@@ -1,0 +1,40 @@
+<svg width="444" height="281" viewBox="0 0 444 281" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>desktop</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6221 -813)">
+<g id="desktop">
+<g id="Rectangle 3">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(6221 813)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(6221 813)" fill="#787878"/>
+</g>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path2_fill" transform="translate(6398 1063)" fill="#E8E8E8"/>
+<use xlink:href="#path3_fill" transform="translate(6398 1063)" fill="#E8E8E8"/>
+</g>
+<g id="Rectangle 4.1">
+<use xlink:href="#path4_fill" transform="translate(6378 1086)" fill="url(#paint3_linear)"/>
+<use xlink:href="#path5_fill" transform="translate(6378 1086)" fill="url(#paint4_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-15 8 -130 4.89859e-16 130 -4.89859e-16)">
+<stop offset="0" stop-color="#DEDEDE"/>
+<stop offset="1" stop-color="#E8E8E8" stop-opacity="0.68"/>
+</linearGradient>
+<linearGradient id="paint4_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.9602e-15 8 -130 4.89859e-16 130 -4.89859e-16)">
+<stop offset="0" stop-color="#DEDEDE"/>
+<stop offset="1" stop-color="#E8E8E8" stop-opacity="0.68"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 6C 0 2.68629 2.68629 0 6 0L 438 0C 441.314 0 444 2.68629 444 6L 444 244C 444 247.314 441.314 250 438 250L 6 250C 2.68629 250 0 247.314 0 244L 0 6Z"/>
+<path id="path1_stroke_2x" d="M 6 15L 438 15L 438 -15L 6 -15L 6 15ZM 429 6L 429 244L 459 244L 459 6L 429 6ZM 438 235L 6 235L 6 265L 438 265L 438 235ZM 15 244L 15 6L -15 6L -15 244L 15 244ZM 6 235C 10.9706 235 15 239.029 15 244L -15 244C -15 255.598 -5.59798 265 6 265L 6 235ZM 429 244C 429 239.029 433.029 235 438 235L 438 265C 449.598 265 459 255.598 459 244L 429 244ZM 438 15C 433.029 15 429 10.9706 429 6L 459 6C 459 -5.59798 449.598 -15 438 -15L 438 15ZM 6 -15C -5.59798 -15 -15 -5.59798 -15 6L 15 6C 15 10.9706 10.9706 15 6 15L 6 -15Z"/>
+<path id="path2_fill" d="M 45 0L 75 0L 90 24L 45 24L 45 0Z"/>
+<path id="path3_fill" d="M 45 0L 15 0L 0 24L 45 24L 45 0Z"/>
+<path id="path4_fill" d="M 65 0L 107.976 0C 108.212 0 108.447 0.0419178 108.669 0.123807L 119.502 4.12381C 121.596 4.89703 121.042 8 118.809 8L 65 8L 65 0Z"/>
+<path id="path5_fill" d="M 65 0L 22.0241 0C 21.7877 0 21.5531 0.0419178 21.3314 0.123807L 10.498 4.12381C 8.40388 4.89703 8.95844 8 11.1908 8L 65 8L 65 0Z"/>
+</defs>
+</svg>

@@ -39,3 +39,7 @@ span,
 div {
   color: rgba(0,0,0,0.6)
 }
+
+.pr {
+  position: relative
+}

@@ -18,3 +18,4 @@ export * from './BlueText'
 // UI components
 export * from './Button'
 export * from './RouteImages'
+export * from './CenteredImg'
