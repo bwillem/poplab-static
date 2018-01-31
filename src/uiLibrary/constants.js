@@ -7,6 +7,8 @@ export const colors = {
   darkRoyalBlue: '#3276e8',
   headingGrey: 'rgba(0,0,0,0.7)',
   copyGrey: 'rgba(0,0,0,0.6)',
+  softWhite: 'rgba(255,255,255,0.8)',
+  white: 'rgb(255,255,255)',
 }
 export const mq = {
   small: '40em',
@@ -22,4 +24,7 @@ export const spacing = {
   s5 : '4rem',
   s6 : '8rem',
   s7 : '16rem',
+}
+export const shadows = {
+  drop : '6px 6px 0 0 #3c3b3b'
 }

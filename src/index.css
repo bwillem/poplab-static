@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-weight: lighter;
   font-family: 'Karla',
     -apple-system, 
     BlinkMacSystemFont, 
@@ -33,7 +34,6 @@ h5 {
   color: rgba(0,0,0,0.6)
 }
 
-p,
 a,
 span,
 div {
@@ -42,4 +42,8 @@ div {
 
 .pr {
   position: relative
+}
+
+.ta-r {
+  text-align: right
 }

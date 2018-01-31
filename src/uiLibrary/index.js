@@ -4,18 +4,13 @@ export * from './constants'
 // structure
 export * from './Row'
 export * from './Column'
-export * from './Whole'
-export * from './Half'
-export * from './Third'
-export * from './Fourth'
 export * from './FixedWidthRow'
 
 // typography
-export * from './Headline'
-export * from './H2'
-export * from './BlueText'
+export * from './Headings'
+export * from './ColoredText'
 
 // UI components
 export * from './Button'
 export * from './RouteImages'
-export * from './CenteredImg'
+export * from './Images'

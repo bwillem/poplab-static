@@ -4,7 +4,7 @@ import {
   imgCycleTime,
 } from './constants'
 
-const slidetoLeft = keyframes`
+const fadeInFadeOut = keyframes`
   0% {
     opacity: 0; 
   }
@@ -25,7 +25,7 @@ const slidetoLeft = keyframes`
   }
 `
 
-export const CenteredImg = styled.img`
+export const AbsoluteCenteredImg = styled.img`
   max-width: 100%;
   position: absolute;
   top: 50%;
@@ -33,11 +33,15 @@ export const CenteredImg = styled.img`
   transform: translate(-50%,-50%);
 `
 
+export const CenteredImg = styled.img`
+  max-width: 100%;
+  margin: 0 auto
+`
 export const FadingImg = styled.img`
   max-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  animation: ${slidetoLeft} ${imgCycleTime}ms linear infinite;
+  animation: ${fadeInFadeOut} ${imgCycleTime}ms linear infinite;
 `

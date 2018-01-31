@@ -12,24 +12,24 @@ import {
   mq,
 } from '../uiLibrary'
 
-const StyledBackground = styled.section`
+export const StyledBackground = styled.section`
   height: 100vh;
   background: linear-gradient(
     transparent,
     rgba(55, 184, 254, 0.22))
 `
-const StyledVerticalCenter = styled.div`
+export const StyledVerticalCenter = styled.div`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 `
-const StyledHideOnSmall = styled.span`
+export const StyledHideOnSmall = styled.span`
   display: none;
   @media screen and (min-width: ${ mq.small }) {
     display: block
   }
 `
-const StyledHideOnMedium = styled.span`
+export const StyledHideOnMedium = styled.span`
   display: none;
   @media screen and (min-width: ${ mq.medium }) {
     display: block

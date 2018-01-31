@@ -1,7 +1,6 @@
 import React from 'react'
 
-export const DesktopSVG = props => 
-<svg width='444' height='281' viewBox='0 0 444 281' xmlns='http://www.w3.org/2000/svg'
+export const DesktopSVG = props => <svg width='444' height='281' viewBox='0 0 444 281' xmlns='http://www.w3.org/2000/svg'
 xmlnsXlink='http://www.w3.org/1999/xlink'>
     <desc>Created using Figma</desc>
     <g id='Canvas' transform='translate(-6221 -813)'>

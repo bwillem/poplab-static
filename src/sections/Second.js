@@ -3,9 +3,10 @@ import {
   FixedWidthRow,
   BlueText,
   H2,
+  Lead,
   Column,
   FadingImg,
-  CenteredImg,
+  AbsoluteCenteredImg,
 } from '../uiLibrary'
 import styled from 'styled-components'
 import {
@@ -34,14 +35,12 @@ export class Slider extends React.Component {
     setTimeout(() => {
       let newI = this.state.index + 1
       if (newI === 3) newI = 0 
-      console.log('new index', newI)
       this.setState({
         index: newI,
         activeUrl: imgUrls[newI].url,
         imgWidth: imgUrls[newI].width,
       })
     }, time)
-    console.log(this.state.index, this.state.activeUrl)
     return <FadingImg 
       width={ this.state.imgWidth }
       src={ this.state.activeUrl } 
@@ -66,7 +65,7 @@ export const Second = props => {
         </H2>
         </Column> 
         <Column span={6} className='pr'>
-          <CenteredImg width='160' src={ './heartRoute.png' } alt="poplab-gradient-route"/>
+          <AbsoluteCenteredImg width='160' src={ './heartRoute.png' } alt="poplab-gradient-route"/>
           <Slider />
         </Column>
       </FixedWidthRow>  

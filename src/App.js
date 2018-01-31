@@ -3,6 +3,9 @@ import React, { Component, Fragment } from 'react'
 import {
   Main,
   Second,
+  Third,
+  Fourth,
+  Fifth,
 } from './sections'
 
 class App extends Component {
@@ -11,6 +14,9 @@ class App extends Component {
       <Fragment>
         <Main />
         <Second />
+        <Third /> 
+        <Fourth />
+        <Fifth />
       </Fragment>
     );
   }
